@@ -1,5 +1,11 @@
 package com.company;
 
+/*
+    Given a string, find the count of unique years mentioned in the string. Valid dates to count will always be in the
+    format DD-MM-YYYY.
+    For example: String = "blah blah 05-05-1920 blah 05-05-1919 blah 04-04-1920" has 2 unique years.
+*/
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;

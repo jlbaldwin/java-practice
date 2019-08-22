@@ -9,7 +9,7 @@ public class CountDates {
 
     public static int countDates(String text){
 
-        //create pattern to search for
+        //create pattern to search for. Valid dates are only DD-MM-YYYY
         String patternString = "([0-9]{2})-([0-9]{2})-([0-9]{4})";
         Pattern pattern = Pattern.compile(patternString);
         Matcher matcher = pattern.matcher(text);
